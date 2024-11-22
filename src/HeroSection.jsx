@@ -3,15 +3,28 @@ import img01 from "./imges/01.png";
 import lineImg from "./imges/Line.png";
 import boy from "./imges/boy.jpeg";
 import Img02 from "./imges/02 (2).png";
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 const HeroSection = () => {
   return (
-    <div className="bg-black">
+    <div >
       <div className="container pt-5">
         <div className="row">
           <div className="col-lg-5 col-xs-12 text-white">
+          <span 
+  className="fs-1" 
+  style={{
+    transform: 'scale(3)',    
+    filter: 'blur(2px)',      
+    display: 'inline-block', 
+  }}
+>
+  01
+</span>
             <img className="img-fluid" src={lineImg}></img>
+           
             <span className="text-warning ms-3">GEt Started</span>
+            
             <h1 className="mt-4 mb-2">What level of hiker are you?</h1>
             <p>
               Determining what level of hiker you are can be an important tool
@@ -22,7 +35,9 @@ const HeroSection = () => {
               backpacker?
             </p>
             <img className="img-fluid" src={lineImg}></img>
-            <span className="text-warning ms-3">Read more</span>
+            <span className="text-warning ms-3 pe-5">Read more
+           <ArrowRightAltIcon />
+            </span>
           </div>
           <div className="col-lg-2 col-xs-12 container"></div>
           <div className="col-lg-4">
@@ -37,7 +52,18 @@ const HeroSection = () => {
           </div>
           <div className="col-lg-2"></div>
           <div className="col-lg-5 col-xs-12 text-white">
+          <span 
+  className="fs-1" 
+  style={{
+    transform: 'scale(3)',    
+    filter: 'blur(2px)',      
+    display: 'inline-block',  
+  }}
+>
+  02
+</span>
             <img className="img-fluid" src={lineImg}></img>
+            
             <span className="text-warning ms-3">Hiking Essentials</span>
             <h1 className="mt-4 mb-2">Picking the right Hiking Gear!</h1>
             <p>
@@ -48,7 +74,8 @@ const HeroSection = () => {
               get heavy and chafe wif they get sweaty or wet.
             </p>
             <img className="img-fluid" src={lineImg}></img>
-            <span className="text-warning ms-3">Read more</span>
+            <span className="text-warning ms-3">Read more  <ArrowRightAltIcon /></span>
+            
           </div>
         </div>
       </div>
@@ -56,6 +83,16 @@ const HeroSection = () => {
       <div className="container mt-5 pt-5">
         <div className="row">
           <div className="col-lg-5 col-xs-12 text-white">
+          <span 
+  className="fs-1" 
+  style={{
+    transform: 'scale(3)',   
+    filter: 'blur(2px)',      
+    display: 'inline-block',  
+  }}
+>
+  03
+</span>
             <img className="img-fluid" src={lineImg}></img>
             <span className="text-warning ms-3">where you go is the key</span>
             <h1 className="mt-4 mb-2">Understand Your Map & Timing</h1>
@@ -67,7 +104,7 @@ const HeroSection = () => {
               know that say, in a mile, I make a right turn at the junction..
             </p>
             <img className="img-fluid" src={lineImg}></img>
-            <span className="text-warning ms-3">Read more</span>
+            <span className="text-warning ms-3">Read more  <ArrowRightAltIcon /></span>
           </div>
           <div className="col-lg-2 container"></div>
           <div className="col-lg-4 col-xs-12">
